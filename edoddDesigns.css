@@ -5,6 +5,7 @@
 
 body{
 	background-color: #0B2F3A;
+<<<<<<< HEAD
 	font-family: Arial, san-serif;
 	font-size: 18px;
 	text-align: left;
@@ -57,4 +58,7 @@ a{
 	color:#CEF6F5;
 	text-decoration: none;
 	
+=======
+	color:#CEF6F5;
+>>>>>>> origin/master
 }

@@ -1,7 +1,60 @@
+*{
+	padding: 0;
+	margin: 0;
+}
+
 body{
 	background-color: #0B2F3A;
+	font-family: Arial, san-serif;
+	font-size: 18px;
+	text-align: left;
+	margin-left: 100px;
+	margin-right: 100px;
+	
 }
-h1, p{ 
+#mainStage{
+	margin-left: 0px;
+	background-image: url("images/erinCamera.jpg");
+	background-repeat: no-repeat;
+	background-size: cover;
+	height: 100%;
+}
+h1{
 	color:#CEF6F5;
+	background-color: rgba(62,112,127,.8);
+	font-style: normal;
+	font-weight: 500;
+	font-size: 3em;
+	padding: 10px;
+}
+img{
+	width: 100%;
+	height: 50%;
+}
+#slogan{
+	font-weight: bold;
+	font-size: 2em;
+	padding-left: 30px;
+	padding-top: 20px;
+	padding-bottom: 10px;
+	text-transform: lowercase;
+}
 
+p{
+	color:#CEF6F5;
+	padding-left: 60px;
+	background-color: rgba(62,112,127,.5);
+}
+ul{
+	list-style-type: none;
+	color:#CEF6F5;
+	background-color: rgba(62,112,127,.5);
+	padding-left: 80px;
+	padding-top: 20px;
+	padding-bottom: 20px;
+}
+a{
+	color:#CEF6F5;
+	text-decoration: none;
+	
 }

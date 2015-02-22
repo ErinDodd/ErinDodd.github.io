@@ -36,9 +36,10 @@ a:hover{
 section.mainContent{
 	background-color:rgba(255,138,82,.5);
 	color: rgb(95,219,209);
-	margin: 0 6em;
+	margin: 0 auto;
 	padding:3em  ;
-	line-height:2em;
+	line-height:1.25em;
+	max-width:1200px;
 	
 }
 .innerContent{

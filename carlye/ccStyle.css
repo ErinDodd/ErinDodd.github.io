@@ -1,7 +1,7 @@
 *{
 	padding: 0;
 	margin: 0;
-	border-box: box-sizing;
+	box-sizing:border-box;
 }
 body{
 	background-image: url("images/carlyeboot.jpg");
@@ -74,9 +74,12 @@ img {
 	padding: 0 0 0 2em;
 
 }
+input {
+	float:left;
+	width:10%;
+}
 .buttonLeft{
 	background-color:rgba(255,138,82,.5);
-	float: left;
 	font-size: 6em;
 	color: #FFC2AA;
 	margin: 0;
@@ -84,18 +87,19 @@ img {
 	padding: 0 .2em .04em .2em;
 }
 #portfolio{
+	float:left;
 	text-align: center;
-	margin: 0 6em;
+	margin: 0;
 	padding-top: 2em;
 	padding-bottom: 2em;
+	width:80%;
 }
 .buttonRight{
 	background-color:rgba(255,138,82,.5);
-	float: right;
 	font-size: 6em;
 	color: #FFC2AA;
-	margin-: 0;
-	pagdding: 2em 1em 2em 1 em;
+	margin: 0;
+	padding: 2em 1em 2em 1em;
 	border: 1px rgba(255,138,82,.5) solid;
 	padding: 0 .2em .04em .2em;
 }

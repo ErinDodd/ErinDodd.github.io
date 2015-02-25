@@ -1,16 +1,14 @@
 *{
 	padding: 0;
 	margin: 0;
-	border-box: box-sizing;
+	box-sizing: border-box;
 }
 body{
 	background-image: url("images/carlyeboot.jpg");
 	font-size: 18px;
 	margin: 0 ;
 }
-#wrapper{
-		background-color:rgba(255,138,82,.3);
-}
+
 nav {
 	background-color: #FFFFFF;
 }
@@ -31,14 +29,15 @@ a{
 	text-align: center;
 }
 a:hover{
-	color: rgb(95,219,209);
+	color: #005F7F;
 }
 section.mainContent{
 	background-color:rgba(255,138,82,.5);
-	color: rgb(95,219,209);
+	color: #005F7F;
 	margin: 0 6em;
-	padding:3em  ;
-	line-height:2em;
+	padding: 3em;
+	line-height: 1.25em;
+	max-width: 1200px;
 	
 }
 .innerContent{
@@ -47,16 +46,18 @@ section.mainContent{
 	border-radius: .2em;
 }
 #hello {
-	display:block;
-	padding:.5em .5em 0 .5em;
+	display: block;
+	padding: .5em .5em 0 .5em;
 	font-family: 'Playfair Display', serif;
 	font-style: italic;
-	font-size:2.5em;
+	font-size: 2.5em;
 	
 }
 p{
 	background-color: #FFFFFF;
 	padding: .5em 1em;
+	width: 380px;
+	padding: 1em;
 }
 img {
 	background-color: #FFFFFF;
@@ -75,18 +76,23 @@ img {
 }
 .buttonLeft{
 	background-color:rgba(255,138,82,.5);
-	float: left;
 	font-size: 6em;
 	color: #FFC2AA;
 	margin: 0;
 	border: 1px rgba(255,138,82,.5) solid;
 	padding: 0 .2em .04em .2em;
 }
+input{
+		float: left;
+		width: 10%;
+}
 #portfolio{
+	float: left;
 	text-align: center;
 	margin: 0 6em;
 	padding-top: 2em;
 	padding-bottom: 2em;
+	width: 80%;
 }
 .buttonRight{
 	background-color:rgba(255,138,82,.5);

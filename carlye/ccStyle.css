@@ -11,6 +11,7 @@ body{
 }
 
 nav {
+	margin-top: 3em;
 	background-color: #FFFFFF;
 }
 ul{
@@ -35,7 +36,9 @@ a:hover{
 section.mainContent{
 	background-color:rgba(255,138,82,.5);
 	color: #005F7F;
-	margin: 0 6em;
+	margin-left: auto;
+    margin-right: auto;
+    width: 70%;
 	padding: 3em;
 	line-height: 1.25em;
 	max-width: 1200px;
@@ -49,15 +52,19 @@ section.mainContent{
 	display: block;
 	padding: .5em .5em 0 .5em;
 	font-family: 'Playfair Display', serif;
-	font-style: italic;
 	font-size: 2.5em;
 	
 }
 p{
 	background-color: #FFFFFF;
-	padding: .5em 1em;
+	padding: 0 1em;
 	width: 380px;
 	padding: 1em;
+	margin-left: 2em;
+}
+#ccPicture{
+		text-align: right;
+		margin: -30em -1em 2em 0;
 }
 img {
 	background-color: #FFFFFF;
@@ -66,82 +73,50 @@ img {
 
 .getToKnow{
 	background-color: #FFFFFF;
-	font-size: 1.2em;
+	font-size: 1.3em;
 	font-weight: 900;
-	padding: .5em 1em;
-}
-.littleHistory p{
-	padding: 0 0 0 2em;
-
-}
-input {
-	float:left;
-	width:10%;
-}
-.buttonLeft{
-	background-color:rgba(255,138,82,.5);
-	font-size: 6em;
-	color: #FFC2AA;
+	padding: .5em 1em 0 1em;
 	margin: 0;
-	border: 1px rgba(255,138,82,.5) solid;
-	padding: 0 .2em .04em .2em;
 }
-input{
-		float: left;
-		width: 10%;
-}
-#portfolio{
 
-	float: left;
-r
-	text-align: center;
-	margin: 0;
-	padding-top: 2em;
-	padding-bottom: 2em;
-	width: 80%;
-
-}
-.buttonRight{
-	background-color:rgba(255,138,82,.5);
-	font-size: 6em;
-	color: #FFC2AA;
-	margin: 0;
-	padding: 2em 1em 2em 1em;
-	border: 1px rgba(255,138,82,.5) solid;
-	padding: 0 .2em .04em .2em;
-}
-.contact{
-	font-size: 1em;
-}
 #contactMe{
-	display:block;
-	padding:.5em .5em 0 3em;
+	margin-left: 2em;
+	margin-top: 1em;
+	padding: 0 .5em;
 	font-family: 'Playfair Display', serif;
-	font-style: italic;
 	font-weight: 700;
 	font-size:2.1em;
+	padding-bottom: 0em;
 }
-form{
-	margin: 0 auto;
-	padding: 1em;
-	background-color: #FFFFFF;
-	border: 1px #FFFFFF solid;
-	border-radius: .2em;
+.info{
+	margin-top: .5em;
+	margin-left: 3.4em;
+	margin-bottom: 5em;
 }
-.fromInput {
-	display: block;
-	border: 1px rgb(95,219,209) solid;
-	border-radius: .2em;
+.info p{
+	padding: .1em;
 }
-.button{ 
-	font-size: 1em;
-	margin-top: 1em;
-    padding: .4em;
-	background-color: rgb(95,219,209);
-	color: #FFFFFF;
-	border: 1px #FFFFFF solid;
-	border-radius: .4em;
-	
+#socialMe{
+	margin-left: 0em;
+	margin-top: .45em;
+	margin-bottom: .3em;
+	padding: 0 .5em;
+	font-family: 'Playfair Display', serif;
+	font-weight: 700;
+	font-size:2.1em;
+
+}
+.social{
+	margin-top: -12em;
+	margin-right: 6em;
+	float: right;
+}
+.social p{
+	padding:0em;
+	margin-left: 1em;
+}
+.bolden{
+	font-weight: 900;
 }
 footer{
  	background-color:rgba(255,138,82,.3);

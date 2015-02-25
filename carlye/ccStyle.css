@@ -1,7 +1,11 @@
 *{
 	padding: 0;
 	margin: 0;
+<<<<<<< HEAD
 	box-sizing: border-box;
+=======
+	box-sizing:border-box;
+>>>>>>> origin/master
 }
 body{
 	background-image: url("images/carlyeboot.jpg");
@@ -33,11 +37,19 @@ a:hover{
 }
 section.mainContent{
 	background-color:rgba(255,138,82,.5);
+<<<<<<< HEAD
 	color: #005F7F;
 	margin: 0 6em;
 	padding: 3em;
 	line-height: 1.25em;
 	max-width: 1200px;
+=======
+	color: rgb(95,219,209);
+	margin: 0 auto;
+	padding:3em  ;
+	line-height:1.25em;
+	max-width:1200px;
+>>>>>>> origin/master
 	
 }
 .innerContent{
@@ -74,6 +86,10 @@ img {
 	padding: 0 0 0 2em;
 
 }
+input {
+	float:left;
+	width:10%;
+}
 .buttonLeft{
 	background-color:rgba(255,138,82,.5);
 	font-size: 6em;
@@ -87,20 +103,27 @@ input{
 		width: 10%;
 }
 #portfolio{
+<<<<<<< HEAD
 	float: left;
+=======
+	float:left;
+>>>>>>> origin/master
 	text-align: center;
-	margin: 0 6em;
+	margin: 0;
 	padding-top: 2em;
 	padding-bottom: 2em;
+<<<<<<< HEAD
 	width: 80%;
+=======
+	width:80%;
+>>>>>>> origin/master
 }
 .buttonRight{
 	background-color:rgba(255,138,82,.5);
-	float: right;
 	font-size: 6em;
 	color: #FFC2AA;
-	margin-: 0;
-	pagdding: 2em 1em 2em 1 em;
+	margin: 0;
+	padding: 2em 1em 2em 1em;
 	border: 1px rgba(255,138,82,.5) solid;
 	padding: 0 .2em .04em .2em;
 }

@@ -1,0 +1,84 @@
+*{
+	padding: 0;
+	margin: 0;
+	border-box: box-sizing;
+}
+body{
+	background-color: rgba(244,244,244, .3);
+	font-size: 18px;
+	text-align: left;
+	font-family: 'Sanchez', serif;
+	height: 90%;
+}
+h1{
+	font-size: 5em;
+	font-family: Questrial;
+	color: #393D40;
+	margin: .5em 0 0 .5em;
+
+}
+h2{
+	font-size: 2em;
+	font-family: Questrial;
+	color: #393D40;
+	margin: -.5em 0 0 1em;
+
+}
+ul{
+	list-style-type: none;
+	color: #393D40;
+	padding-left: 3em;
+	padding-bottom: .5em;
+	float: left;
+	text-align: right;
+	font-family: 'Sanchez', serif;
+	font-size: 1em;
+}
+a{
+	color: #393D40;
+	text-decoration: none;
+	font-family: 'Sanchez', serif;
+}
+a:hover{
+	color: #ACB8BF;
+}
+section{
+	float: left;
+	margin-left: 5em; 
+}
+div{
+	margin-left: 1em;
+	float: left; 
+	color: #393D40;
+	text-decoration: none;
+	font-family: 'Sanchez', serif;
+}
+#websites{
+	margin: 1em;
+
+}
+#sketchbook{
+	margin: 1em;
+}
+#photography{
+	margin: 1em;
+}
+#cinema{
+	margin: 1em;
+}
+#fabrics{
+	margin: 1em;
+}
+.clearfix:after{
+	visibility: hidden;
+	display: block;
+	font-size: 0;
+	content: " ";
+	clear: both;
+	height: 0;
+}
+footer{
+     clear: both;
+	height: 10%;
+	background: #737B7F;
+}

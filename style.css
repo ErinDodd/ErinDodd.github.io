@@ -1,0 +1,74 @@
+@import url(http://fonts.googleapis.com/css?family=Merriweather:400,300,700);
+@import url(http://fonts.googleapis.com/css?family=Fira+Sans:300,400,500);
+
+*{
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+
+}
+body{
+	background-color: rgba(20, 15, 10, .2);
+	font-size: 18px;
+}
+.edodd{
+	background-image: url("images/eddoddDesignsBackground.jpg");
+	background-repeat: no-repeat;
+	background-size: cover;
+	height: 100vh;
+	margin:0;
+	padding: 1em;
+
+}
+#bottomNav{
+	background-color: #140f0a;
+	height: 15vh;
+}
+.about{
+	margin:0;
+	padding: 0;
+	height: 100vh;
+}
+.ePhoto{
+	float: left;
+}
+.info{
+	float: left;
+	text-align: center;
+	margin-top: 5em;
+	margin-left: 10%;
+	ffont-style: normal;
+	font-weight: 300;
+	font-size: 1.5em;
+	padding: .25em;
+	font-family: 'Fira Sans', sans-serif;
+	color: #140f0a;
+}
+
+ul{
+	list-style-type: none;
+	color:#c9b2a2;
+	background-color: #140f0a;
+	padding-left: 4.25em;
+	padding-top: 1em;
+	padding-bottom: .5em;
+	font-family: 'Fira Sans', sans-serif;
+	font-weight: 300;
+	font-size: 1.3em;
+
+}
+li{
+	display: inline;
+	Margin: 1em;
+	padding: .5em;
+	text-align: center;
+}
+a{
+	color:#c9b2a2;
+	text-decoration: none;
+	font-family: 'Fira Sans', sans-serif;
+	font-weight: 300;
+}
+a:hover{
+	color: #ffffff;
+}

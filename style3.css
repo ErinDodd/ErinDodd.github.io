@@ -24,6 +24,18 @@ h2{
 	margin: -.5em 0 0 1em;
 
 }
+.slogan{
+	float: left;
+	margin: .95em 0 0 5em;
+	font-size: 4em;
+
+}
+span{
+	color:rgba(115, 123, 127, .5);
+}
+nav{
+	clear: both;
+}
 ul{
 	list-style-type: none;
 	color: #393D40;

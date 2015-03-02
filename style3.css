@@ -21,7 +21,8 @@ body{
 }
 .slogan{
 	float: left;
-	margin: -1em 0 0 5em;
+	margin-top: 2.9em;
+	margin-left: 2em;
 	font-size: 4em;
 
 }
@@ -43,6 +44,7 @@ ul{
 	text-align: right;
 	font-family: 'Sanchez', serif;
 	font-size: 1em;
+	margin-top: 1em;
 
 }
 

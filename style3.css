@@ -8,25 +8,20 @@ body{
 	font-size: 18px;
 	text-align: left;
 	font-family: 'Sanchez', serif;
+	color: #393D40;
 	height: 90%;
 }
-h1{
-	font-size: 5em;
+.logo{
+	font-size: 10em;
 	font-family: Questrial;
 	color: #393D40;
 	margin: .5em 0 0 .5em;
-
-}
-h2{
-	font-size: 2em;
-	font-family: Questrial;
-	color: #393D40;
-	margin: -.5em 0 0 1em;
+	border-bottom: 5px dashed #393D40;
 
 }
 .slogan{
 	float: left;
-	margin: .95em 0 0 5em;
+	margin: -1em 0 0 5em;
 	font-size: 4em;
 
 }
@@ -35,6 +30,9 @@ span{
 }
 nav{
 	clear: both;
+	margin-left: 2.9em;
+	font-size: 1.3em;
+	
 }
 ul{
 	list-style-type: none;
@@ -45,11 +43,19 @@ ul{
 	text-align: right;
 	font-family: 'Sanchez', serif;
 	font-size: 1em;
+
 }
+
 a{
 	color: #393D40;
 	text-decoration: none;
 	font-family: 'Sanchez', serif;
+	border-top-style: none;
+    border-right-style: solid;
+    border-bottom-style: none;
+    border-left-style: none;
+	border-right-color: #393D40;
+	padding: .5em;
 }
 a:hover{
 	color: #ACB8BF;

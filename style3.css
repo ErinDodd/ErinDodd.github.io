@@ -22,7 +22,7 @@ body{
 .slogan{
 	float: left;
 	margin-top: 2.9em;
-	margin-left: 2em;
+	margin-left: 1.5em;
 	font-size: 4em;
 
 }
@@ -62,9 +62,17 @@ a{
 a:hover{
 	color: #ACB8BF;
 }
+.info {
+	margin-top: 1em;
+	width: 350px;
+	text-align: justify;
+}
 section{
 	float: left;
 	margin-left: 5em; 
+}
+.erinImg{
+	width: 33.33%
 }
 div{
 	margin-left: 1em;

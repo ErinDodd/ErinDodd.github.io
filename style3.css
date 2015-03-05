@@ -48,7 +48,7 @@ ul{
 
 }
 
-a{
+.navHome{
 	color: #393D40;
 	text-decoration: none;
 	font-family: 'Sanchez', serif;
@@ -80,6 +80,12 @@ div{
 	color: #393D40;
 	text-decoration: none;
 	font-family: 'Sanchez', serif;
+}
+.work{
+	color: #393D40;
+	text-decoration: none;
+	font-family: 'Sanchez', serif;
+	padding: .5em;
 }
 #websites{
 	margin: 1em;

@@ -71,10 +71,10 @@ a:hover{
 	float: left;
 	margin-left: 5em; 
 }
-.works{
+.workIt{
 		float: left;
-		margin-left: 15em; 
-		margin-top: -5em;
+		margin-left: 16em; 
+		margin-top: -6em;
 }
 .erinImg{
 	width: 33.33%
@@ -95,7 +95,7 @@ div{
 #websites{
 	margin: 1em;
 	max-width: 33.33%;
-
+	text-align: center;
 }
 #websites img {
 	width: 100%;
@@ -103,6 +103,7 @@ div{
 #sketchbook{
 	margin: 1em;
 	max-width: 33.33%;
+	text-align: center;
 }
 #sketchbook img {
 	width: 100%;
@@ -110,6 +111,7 @@ div{
 #photography{
 	margin: 1em;
 	max-width: 33.33%;
+	text-align: center;
 }
 #photography img {
 	width: 100%;
@@ -117,6 +119,7 @@ div{
 #cinema{
 	margin: 1em;
 	max-width: 33.33%;
+	text-align: center;
 }
 #cinema img {
 	width: 100%;
@@ -124,6 +127,7 @@ div{
 #fabrics{
 	margin: 1em;
 	max-width: 33.33%;
+	text-align: center;
 }
 #fabrics img {
 	width: 100%;

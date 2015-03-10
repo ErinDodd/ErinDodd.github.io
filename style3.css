@@ -67,9 +67,14 @@ a:hover{
 	width: 350px;
 	text-align: justify;
 }
-section{
+.monolog {
 	float: left;
 	margin-left: 5em; 
+}
+.works{
+		float: left;
+		margin-left: 15em; 
+		margin-top: -5em;
 }
 .erinImg{
 	width: 33.33%
@@ -89,23 +94,39 @@ div{
 }
 #websites{
 	margin: 1em;
+	max-width: 33.33%;
 
 }
 #websites img {
-	width: 50%;
+	width: 100%;
 }
 #sketchbook{
 	margin: 1em;
-	float: left;
+	max-width: 33.33%;
+}
+#sketchbook img {
+	width: 100%;
 }
 #photography{
 	margin: 1em;
+	max-width: 33.33%;
+}
+#photography img {
+	width: 100%;
 }
 #cinema{
 	margin: 1em;
+	max-width: 33.33%;
+}
+#cinema img {
+	width: 100%;
 }
 #fabrics{
 	margin: 1em;
+	max-width: 33.33%;
+}
+#fabrics img {
+	width: 100%;
 }
 .clearfix:after{
 	visibility: hidden;

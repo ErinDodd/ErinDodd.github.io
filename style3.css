@@ -91,8 +91,12 @@ div{
 	margin: 1em;
 
 }
+#websites img {
+	width: 50%;
+}
 #sketchbook{
 	margin: 1em;
+	float: left;
 }
 #photography{
 	margin: 1em;

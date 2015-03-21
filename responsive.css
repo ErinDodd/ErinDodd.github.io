@@ -38,9 +38,8 @@
 		width: 70%;
 	}
 }
-@media only screen and (max-width: 638px){
+@media only screen and (min-width: 590px) and (max-width: 638px){
 	.monolog {
-		display:block;
 		float: left;
 		padding-top: 6em;
 		margin-left: 14em; 
@@ -48,7 +47,20 @@
 	}
 	.erinImg{
 		display:block;
+		padding-top: 1.5em;
 		margin: 10em auto auto 5em;
 		width: 70%;
+	}
+}
+@media only screen (max-width: 589px){
+
+	.monolog {
+
+		position: absolute;
+		padding-top: 26em;
+		margin-left: 0em;
+	}
+	.erinImg{
+
 	}
 }

@@ -28,13 +28,27 @@
 	}
 
 }
-@media only screen and (max-width: 659px){
+@media only screen and (min-width: 639px) and (max-width: 659px){
 	.info {
 		font-size: -.5em;
 	}
 	.erinImg{
 		display:block;
-		margin: 5em auto auto 5em;
+		margin: 4em auto auto 5em;
+		width: 70%;
+	}
+}
+@media only screen and (max-width: 638px){
+	.monolog {
+		display:block;
+		float: left;
+		padding-top: 6em;
+		margin-left: 14em; 
+		font-size: -3em;
+	}
+	.erinImg{
+		display:block;
+		margin: 10em auto auto 5em;
 		width: 70%;
 	}
 }

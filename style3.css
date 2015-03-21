@@ -19,7 +19,7 @@ header {
 	font-size: 10em;
 	font-family: 'Questrial', sans-serif;
 	color: #393D40;
-	margin: 0  0 0 .2em;
+	margin: 0  0 0 .3em;
 	border-bottom: 5px dashed #393D40;
 	text-decoration: none;
 
@@ -53,7 +53,7 @@ ul{
 	color: #393D40;
 	text-decoration: none;
 	font-family: 'Sanchez', serif;
-	padding: .5em;
+	padding: .7em;
 }
  a:hover{
 	color:rgba(115, 123, 127, .5);
@@ -73,11 +73,12 @@ ul{
 }
 .erinImg{
 	display:block;
-	margin:auto;
+	margin: -5em auto auto auto;
 	-moz-border-radius: 50%;
 	-webkit-border-radius: 50%;
 	border-radius: 50%;
-	width: 25%;
+	width: 39%;
+	position: relative;
 	
 }
 div{

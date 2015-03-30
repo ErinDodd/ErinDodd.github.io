@@ -134,6 +134,12 @@ div{
 #fabrics img {
 	width: 100%;
 }
+.contactLinks{
+	color: #393D40;
+	text-decoration: none;
+	font-family: 'Sanchez', serif;
+
+}
 .clearfix:after{
 	visibility: hidden;
 	display: block;

@@ -81,12 +81,21 @@ ul{
 	position: relative;
 	
 }
+hr{
+	border-bottom: 2px dashed #393D40;
+	width: 30%;
+	color: #393D40;
+}
 div{
 	margin-left: 1em;
 	float: left; 
 	color: #393D40;
 	text-decoration: none;
 	font-family: 'Sanchez', serif;
+}
+.contract{
+	text-align: center;
+
 }
 .work{
 	color: #393D40;
@@ -138,7 +147,7 @@ div{
 	color: #393D40;
 	text-decoration: none;
 	font-family: 'Sanchez', serif;
-
+	text-align: center;
 }
 .clearfix:after{
 	visibility: hidden;

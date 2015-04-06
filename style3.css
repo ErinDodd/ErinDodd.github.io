@@ -39,8 +39,7 @@ ul{
 	list-style-type: none;
 	border-right:3px solid #393d40;
 	color: #393D40;
-	padding-left: 3em;
-	padding-bottom: .5em;
+	padding: 0 0 0 3em;
 	float: left;
 	text-align: right;
 	font-family: 'Sanchez', serif;
@@ -53,14 +52,14 @@ ul{
 	color: #393D40;
 	text-decoration: none;
 	font-family: 'Sanchez', serif;
-	padding: .7em;
+	padding: 0 1.4em 0 1em;
 }
  a:hover{
 	color:rgba(115, 123, 127, .5);
 }
 .info {
 	margin-top: 1em;
-	width: 350px;
+	
 }
 .monolog {
 	padding-top: 6em;
@@ -82,8 +81,8 @@ ul{
 	
 }
 hr{
-	border-bottom: 2px dashed #393D40;
-	width: 30%;
+	border: 2px dashed #393D40;
+	width: 100%;
 	color: #393D40;
 }
 div{
@@ -93,8 +92,13 @@ div{
 	text-decoration: none;
 	font-family: 'Sanchez', serif;
 }
-.contract{
-	text-align: center;
+.contact{
+	width: 30%;
+	float: left;
+	Margin: 5.5em 0 0 15em;
+}
+.ccMe{
+	font-size: 4em;
 
 }
 .work{

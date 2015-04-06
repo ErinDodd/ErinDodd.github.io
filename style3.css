@@ -59,7 +59,11 @@ ul{
 }
 .info {
 	margin-top: 1em;
-	font-size: 1.5em;
+	font-size: 1em;
+
+}
+.myInfo {
+
 }
 .monolog {
 	padding-top: 6em;
@@ -170,6 +174,19 @@ div{
 	width: 30%;
 	float: left;
 	Margin: 11em 0 0 15em;
+}
+.Fabric {
+	width: 30%;
+	float: left;
+	Margin: 11em 0 0 15em;
+	display: inline;
+}
+.Fabric p {
+	float: left;
+	width: 350px;
+}
+.fabImg{
+	margin: 0 0 0 -10em;
 }
 footer{
      clear: both;

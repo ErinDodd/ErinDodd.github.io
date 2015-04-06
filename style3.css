@@ -102,6 +102,10 @@ div{
 	font-size: 4em;
 
 }
+.ccWork{
+	font-size: 4em;
+	margin: -1.4em 0 0 0;
+}
 .work{
 	color: #393D40;
 	text-decoration: none;
@@ -153,10 +157,6 @@ div{
 	text-decoration: none;
 	font-family: 'Sanchez', serif;
 	font-size: 1.5em;
-}
-.contact p{
-
-text-align: center;
 }
 .clearfix:after{
 	visibility: hidden;

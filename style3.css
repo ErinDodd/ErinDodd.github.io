@@ -59,7 +59,7 @@ ul{
 }
 .info {
 	margin-top: 1em;
-	
+	font-size: 1.5em;
 }
 .monolog {
 	padding-top: 6em;
@@ -84,6 +84,7 @@ hr{
 	border: 2px dashed #393D40;
 	width: 100%;
 	color: #393D40;
+	margin: 0 0 1em 0;
 }
 div{
 	margin-left: 1em;
@@ -151,7 +152,11 @@ div{
 	color: #393D40;
 	text-decoration: none;
 	font-family: 'Sanchez', serif;
-	text-align: center;
+	font-size: 1.5em;
+}
+.contact p{
+
+text-align: center;
 }
 .clearfix:after{
 	visibility: hidden;

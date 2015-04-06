@@ -63,7 +63,9 @@ ul{
 
 }
 .myInfo {
-
+	margin-top: 1em;
+    width: 350px;
+	
 }
 .monolog {
 	padding-top: 6em;

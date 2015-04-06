@@ -166,6 +166,11 @@ div{
 	clear: both;
 	height: 0;
 }
+.sketchIt{
+	width: 30%;
+	float: left;
+	Margin: 11em 0 0 15em;
+}
 footer{
      clear: both;
 	height: 10%;

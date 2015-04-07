@@ -25,11 +25,12 @@ header {
 
 }
 nav{
-	font-size: 1.3em;
+	font-size: 2em;
 }
 .slogan{
 	float: left;
 	font-size: 4em;
+	margin-bottom: .2em;
 
 }
 span{
@@ -39,7 +40,7 @@ ul{
 	list-style-type: none;
 	border-right:3px solid #393d40;
 	color: #393D40;
-	padding: 0 0 0 3em;
+	padding: 0 0 0 1em;
 	float: left;
 	text-align: right;
 	font-family: 'Sanchez', serif;
@@ -58,9 +59,9 @@ ul{
 	color:rgba(115, 123, 127, .5);
 }
 .info {
-	margin-top: 1em;
+	margin: 1em 0 0 1em;;
 	font-size: 1em;
-	font-size:1.5em;
+	font-size: 2em;
 
 }
 .myInfo {
@@ -70,7 +71,7 @@ ul{
 }
 .monolog {
 	padding-top: 6em;
-	margin-left: 16em; 
+	margin: 0 0 0 17em; 
 }
 .workIt{
 		float: left;
@@ -91,7 +92,7 @@ hr{
 	border: 2px dashed #393D40;
 	width: 100%;
 	color: #393D40;
-	margin: 0 0 1em 0;
+	margin: 0 0 1em 2em;
 }
 div{
 	margin-left: 1em;
@@ -100,18 +101,12 @@ div{
 	text-decoration: none;
 	font-family: 'Sanchez', serif;
 }
-.contact{
-	width: 30%;
-	float: left;
-	Margin: 5.5em 0 0 15em;
-}
-.ccMe{
-	font-size: 4em;
 
-}
-.ccWork{
+h1 {
 	font-size: 4em;
-	margin: -1.4em 0 0 0;
+	margin: -1em 0 0 .5em;
+	font-family: 'Sanchez', serif;
+	font-weight: normal;
 }
 .work{
 	color: #393D40;
@@ -163,7 +158,8 @@ div{
 	color: #393D40;
 	text-decoration: none;
 	font-family: 'Sanchez', serif;
-	font-size: 1.5em;
+	font-size: 2em;
+	margin-left: 1em;
 }
 .clearfix:after{
 	visibility: hidden;
@@ -184,12 +180,16 @@ div{
 	Margin: 11em 0 0 15em;
 	display: inline;
 }
-.Fabric p {
+.synopsis {
 	float: left;
-	width: 350px;
+	width: 35%;
 }
 .fabImg{
-	margin: 0 0 0 -10em;
+	float: right;
+	width: 60%;
+}
+.fabImg img{
+	width: 100%;
 }
 footer{
      clear: both;

@@ -108,6 +108,13 @@ h1 {
 	font-family: 'Sanchez', serif;
 	font-weight: normal;
 }
+h2 {
+	font-size: 2em;
+	margin: 1em 0 1em 1em;
+	font-family: 'Sanchez', serif;
+	font-weight: normal;
+	text-align: center;
+}
 .work{
 	color: #393D40;
 	text-decoration: none;
@@ -175,12 +182,7 @@ h1 {
 	float: left;
 	Margin: 11em 0 0 15em;
 }
-.Fabric {
-	width: 30%;
-	float: left;
-	Margin: 11em 0 0 15em;
-	display: inline;
-}
+
 .synopsis {
 	float: left;
 	width: 35%;
@@ -191,6 +193,19 @@ h1 {
 }
 .fabImg img{
 	width: 100%;
+}
+
+.webImg{
+	float: right;
+	width: 50%;
+	margin: 0 10em 0 0;
+}
+.webImg img{
+	width: 100%;
+}
+.phoImg{
+	margin: 2em 0 0  2em;
+	width: 60%;
 }
 footer{
      clear: both;
